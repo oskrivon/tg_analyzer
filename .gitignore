@@ -1,0 +1,23 @@
+# Secrets / credentials
+.env
+
+# Telegram session files
+*.session
+*.session-journal
+sessions/
+
+# Data / exports / logs
+*.csv
+*.log
+*.png
+data/*
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Keep the synthetic sample dataset (overrides *.csv / data/ rules above)
+!data/sample/
+!data/sample/*.csv
